@@ -1,0 +1,40 @@
+/* here you can put your own css to customize and override the theme */
+tr[id*="cli_id"] > td:first-child {
+	position: relative;
+	padding-left: 30px;
+}
+tr[id*="cli_id"] > td:first-child i:before {
+	top: 8px;
+	left: 4px;
+	height: 16px;
+	width: 16px;
+	display: block;
+	position: absolute;
+	color: white;
+	border: 2px solid white;
+	border-radius: 16px;
+	box-shadow: 0 0 3px #444;
+	box-sizing: content-box;
+	text-align: left;
+	font-family: 'Courier New', Courier, monospace;
+	text-indent: 4px;
+	line-height: 16px;
+	content: '+';
+	background-color: #31b131;
+	box-shadow: none !important;
+	background-color: #b0c1d2;
+	font-weight: 300;
+	vertical-align: middle;
+	line-height: 16px;
+	border: 0;
+	cursor: pointer;
+    font-style: normal;
+}
+tr.parent > td:first-child i:before{
+	content: '-';
+}
+select[name="quantity"]{
+    width: 45px;
+    padding-left: 2px;
+    padding-right: 0px;	
+}

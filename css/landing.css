@@ -1,0 +1,205 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'pfb-bold';
+  src: url("font/pfbeausanspro-bold-webfont.eot");
+  src: url("font/pfbeausanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("font/pfbeausanspro-bold-webfont.woff") format("woff"), url("font/pfbeausanspro-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pfb';
+  src: url("font/pfbeausanspro-regular-webfont.eot");
+  src: url("font/pfbeausanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("font/pfbeausanspro-regular-webfont.woff") format("woff"), url("font/pfbeausanspro-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pfb-light';
+  src: url("font/pfbeausanspro-light-webfont.eot");
+  src: url("font/pfbeausanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("font/pfbeausanspro-light-webfont.woff") format("woff"), url("font/pfbeausanspro-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* COLORS */
+.middle {
+  display: table; }
+
+.middle > * {
+  display: table-cell;
+  vertical-align: middle; }
+
+.rounded {
+  border-radius: 100px; }
+
+.body {
+  background: url("/images/design/landing/main-bg-big.jpg") center top no-repeat;
+  background-size: contain; }
+
+.header {
+  margin-top: 50px; }
+  .header .logo .treasures {
+    background: url("/images/design/landing/treasures.png") center top no-repeat;
+    min-width: 315px;
+    min-height: 103px;
+    margin-top: 30px; }
+  .header .prizes {
+    margin-top: 50px;
+    text-align: right; }
+  .header .gifts {
+    margin-top: 20px;
+    text-align: center; }
+
+.startGameSection {
+  margin: 0px auto;
+  text-align: center; }
+
+.startGame {
+  background-color: #df0067;
+  text-transform: uppercase;
+  font-family: "pfb-bold", sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  padding: 24px 40px; }
+  .startGame:hover {
+    color: #ffffff; }
+
+.gameEtaps {
+  margin: 0px;
+  margin-top: 120px;
+  margin-bottom: 80px; }
+
+.facebook, .odnoklassniki, .vk, .instagramm {
+  color: #fff;
+  font-family: "pfb", sans-serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  text-align: center;
+  width: 60px;
+  height: 60px;
+  padding-top: 14px; }
+  .facebook:hover, .odnoklassniki:hover, .vk:hover, .instagramm:hover {
+    color: #fff; }
+
+.facebook {
+  background-color: #3b5998; }
+
+.odnoklassniki {
+  background-color: #ed6b06; }
+
+.vk {
+  background-color: #436eab; }
+
+.instagramm {
+  background-color: #CF4C00; }
+
+.gameEtap {
+  -webkit-border-radius: 60px;
+  -moz-border-radius: 60px;
+  -ms-border-radius: 60px;
+  border-radius: 60px;
+  border: 2px solid #ebeaee;
+  background-color: #ffffff;
+  padding-bottom: 30px;
+  position: relative;
+  font-family: "pfb-bold", sans-serif; }
+  .gameEtap .bubble-etap {
+    position: absolute;
+    top: -20px;
+    left: -20px;
+    padding: 3px 25px 4px 23px;
+    text-align: center;
+    color: #631d76;
+    font-family: "pfb-bold", sans-serif;
+    font-size: 46px;
+    background: url("/images/design/landing/bubble-etap.png") center top no-repeat; }
+  .gameEtap .img {
+    height: 200px;
+    margin-top: 15px; }
+  .gameEtap h3 {
+    padding: 10px 40px;
+    font-size: 18px; }
+  .gameEtap p {
+    font-size: 12px;
+    margin-bottom: 0px; }
+  .gameEtap .startGame {
+    font-family: "pfb", sans-serif;
+    font-size: 14px;
+    padding: 14px 20px; }
+  .gameEtap .prizes {
+    background-color: #ffe400;
+    text-transform: uppercase;
+    font-family: "pfb-bold", sans-serif;
+    font-size: 14px;
+    color: #000000; }
+    .gameEtap .prizes:hover {
+      color: #000000; }
+
+.footer {
+  background-color: #631d76; }
+  .footer .footerContent {
+    height: 120px;
+    width: 190px;
+    background: url("/images/design/landing/footerContent-logo-bg.jpg") right bottom no-repeat; }
+
+.logo.forScroll {
+  display: none; }
+
+.gifts .forScroll {
+  margin: 60px auto;
+  width: 30px;
+  height: 30px; }
+  .gifts .forScroll .scrollDown, .gifts .forScroll .scrollTop {
+    background-color: #ffe400;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+    -webkit-transition: transform .6s;
+    -o-transition: transform .6s;
+    transition: transform .6s; }
+  .gifts .forScroll .scrollTop {
+    -moz-transform: rotate(180deg);
+    /* ╨Ф╨╗╤П Firefox */
+    -ms-transform: rotate(180deg);
+    /* ╨Ф╨╗╤П IE */
+    -webkit-transform: rotate(180deg);
+    /* ╨Ф╨╗╤П Safari, Chrome, iOS */
+    -o-transform: rotate(180deg);
+    /* ╨Ф╨╗╤П Opera */
+    transform: rotate(180deg); }
+
+@media (max-width: 991px) and (min-width: 200px) {
+  .body {
+    background-size: auto; }
+
+  .header .logo {
+    text-align: center; }
+    .header .logo .treasures {
+      background-size: contain;
+      min-width: 100%; }
+    .header .logo .forScroll {
+      margin: 20px auto;
+      width: 30px;
+      height: 30px; }
+      .header .logo .forScroll .scrollDown, .header .logo .gifts .forScroll .scrollTop, .gifts .header .logo .forScroll .scrollTop {
+        background-color: #ffe400;
+        border-radius: 100%;
+        width: 30px;
+        height: 30px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle; }
+  .header .prizes {
+    text-align: center;
+    margin-top: 30px; }
+  .header .gifts .forScroll {
+    display: none; }
+  .header img {
+    max-width: 100%; }
+
+  .startGameSection {
+    margin: 60px auto; }
+
+  .gameEtaps .col-md-4 {
+    padding: 30px 30px; } }
+
+/*# sourceMappingURL=landing.css.map */

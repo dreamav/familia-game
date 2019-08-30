@@ -1,0 +1,301 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'pfb-bold';
+  src: url("font/pfbeausanspro-bold-webfont.eot");
+  src: url("font/pfbeausanspro-bold-webfont.eot?#iefix") format("embedded-opentype"), url("font/pfbeausanspro-bold-webfont.woff") format("woff"), url("font/pfbeausanspro-bold-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pfb';
+  src: url("font/pfbeausanspro-regular-webfont.eot");
+  src: url("font/pfbeausanspro-regular-webfont.eot?#iefix") format("embedded-opentype"), url("font/pfbeausanspro-regular-webfont.woff") format("woff"), url("font/pfbeausanspro-regular-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+@font-face {
+  font-family: 'pfb-light';
+  src: url("font/pfbeausanspro-light-webfont.eot");
+  src: url("font/pfbeausanspro-light-webfont.eot?#iefix") format("embedded-opentype"), url("font/pfbeausanspro-light-webfont.woff") format("woff"), url("font/pfbeausanspro-light-webfont.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal; }
+/* COLORS */
+.middle {
+  display: table; }
+
+.middle > * {
+  display: table-cell;
+  vertical-align: middle; }
+
+.rounded {
+  border-radius: 100px; }
+
+.body {
+  background: url("/images/design/landing/main-bg-big.jpg") center top no-repeat;
+  background-size: cover; }
+
+p, h3, h2, h1 {
+  margin: 0; }
+
+.header {
+  margin-top: 50px; }
+  .header .prizes {
+    text-align: center; }
+    .header .prizes h3 {
+      margin: 0px;
+      color: #ffffff;
+      text-transform: uppercase;
+      font-family: "pfb-bold", sans-serif; }
+  .header .gifts {
+    text-align: right; }
+
+.userPoints {
+  font-family: "pfb", sans-serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  display: inline-block;
+  vertical-align: top;
+  color: #ed6b06; }
+  .userPoints span {
+    margin-left: 10px; }
+
+.userPoints:before {
+  display: inline-block;
+  content: url("/images/design/gold-coin.png");
+  width: 15px;
+  height: 15px;
+  margin-left: -25px; }
+
+.startGameSection {
+  margin: 80px auto;
+  text-align: center; }
+  .startGameSection .discount {
+    background: url("/images/design/landing/discount_bg.png") center center no-repeat;
+    width: 101px;
+    height: 68px;
+    padding-left: 30px;
+    padding-top: 13px;
+    font-family: "pfb-bold", sans-serif;
+    margin: auto; }
+    .startGameSection .discount p, .startGameSection .discount h3 {
+      color: #631d76; }
+    .startGameSection .discount h3 {
+      font-size: 13px;
+      text-transform: uppercase; }
+    .startGameSection .discount p {
+      font-size: 25px; }
+
+#prizesPage .startGameSection {
+  margin-bottom: 0px; }
+
+#prizesPage .gameEtaps {
+  margin-top: 0px; }
+
+.startGame {
+  background-color: #ffe400;
+  text-transform: uppercase;
+  font-family: "pfb-bold", sans-serif;
+  font-size: 10px;
+  color: #000000;
+  padding: 10px 20px;
+  margin-top: 30px; }
+  .startGame:hover {
+    color: #000000; }
+
+.gameEtaps {
+  margin-top: 120px;
+  margin-bottom: 30px; }
+  .gameEtaps .col-md-4 {
+    text-align: center; }
+    .gameEtaps .col-md-4 p {
+      color: #fff;
+      margin-top: 15px;
+      line-height: 12px; }
+      .gameEtaps .col-md-4 p span {
+        font-size: 10px;
+        margin-top: 10px;
+        display: inline-block; }
+
+div[class^="cert"] {
+  width: 90px;
+  height: 111px;
+  margin: 0px auto;
+  padding-top: 67px;
+  position: relative;
+  font-family: "pfb-bold", sans-serif; }
+  div[class^="cert"] h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    color: #631d76; }
+
+.cert1 {
+  background: url("/images/design/landing/cert1-bg.png") center center no-repeat; }
+
+.cert2 {
+  background: url("/images/design/landing/cert2-bg.png") center center no-repeat; }
+
+.cert3 {
+  background: url("/images/design/landing/cert3-bg.png") center center no-repeat; }
+
+.certno {
+  background: url("/images/design/nocert.png") center center no-repeat; }
+
+.certno + div {
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: "pfb-bold", sans-serif;
+  margin-top: 15px;
+  line-height: 16px; }
+
+.main-prize {
+  width: 328px;
+  height: 132px;
+  margin: 50px auto 15px;
+  background: url("/images/design/landing/main-prize.png") center center no-repeat;
+  font-family: "pfb-bold", sans-serif;
+  padding-top: 33px;
+  padding-left: 62px; }
+  .main-prize h3, .main-prize h2 {
+    -moz-transform: rotate(-2deg);
+    /* ╨Ф╨╗╤П Firefox */
+    -ms-transform: rotate(-2deg);
+    /* ╨Ф╨╗╤П IE */
+    -webkit-transform: rotate(-2deg);
+    /* ╨Ф╨╗╤П Safari, Chrome, iOS */
+    -o-transform: rotate(-2deg);
+    /* ╨Ф╨╗╤П Opera */
+    transform: rotate(-2deg); }
+  .main-prize h3 {
+    color: #631d76; }
+  .main-prize h2 {
+    color: #ffffff;
+    margin-left: 34px;
+    margin-top: 16px;
+    font-size: 40px; }
+
+.pokupki, .photosessia, .shoping {
+  font-family: "pfb-bold", sans-serif;
+  color: #631d76; }
+
+.pokupki {
+  text-align: right; }
+
+.shoping {
+  text-align: center;
+  padding-left: 60px; }
+  .shoping h3 {
+    margin-bottom: 30px; }
+  .shoping p {
+    color: #000000;
+    font-family: "pfb", sans-serif; }
+    .shoping p.small {
+      margin-top: 25px; }
+
+.footer {
+  background-color: #631d76; }
+  .footer .footerContent {
+    height: 120px;
+    width: 190px;
+    background: url("/images/design/landing/footerContent-logo-bg.jpg") right bottom no-repeat; }
+
+/*==============================
+=            POPUPS            =
+==============================*/
+.mfp-container div {
+  height: auto; }
+
+.popupMainContainer {
+  position: relative;
+  padding: 20px;
+  width: auto;
+  max-width: 500px;
+  margin: 20px auto; }
+  .popupMainContainer .checkPrize {
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    border-radius: 7px;
+    background-color: #ffffff;
+    border: 1px solid #009fe3;
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+    font-family: "pfb", sans-serif;
+    font-size: 16px; }
+    .popupMainContainer .checkPrize .finalContent {
+      padding: 25px 10px; }
+      .popupMainContainer .checkPrize .finalContent h3 {
+        font-family: "pfb-bold", sans-serif;
+        margin-bottom: 20px; }
+      .popupMainContainer .checkPrize .finalContent p {
+        margin-top: 15px; }
+      .popupMainContainer .checkPrize .finalContent strong:after {
+        display: inline-block;
+        content: url(/images/design/gold-coin.png);
+        width: 15px;
+        height: 15px;
+        margin-left: 5px; }
+    .popupMainContainer .checkPrize .finalButton a {
+      width: 100%;
+      background-color: #009fe3;
+      text-align: center;
+      text-transform: uppercase;
+      color: #ffffff;
+      font-family: "pfb-bold", sans-serif;
+      border-radius: 0px; }
+      .popupMainContainer .checkPrize .finalButton a.closeSkipPopup {
+        background-color: #009fe3;
+        border-top: 1px solid #009fe3;
+        color: #ffffff; }
+      .popupMainContainer .checkPrize .finalButton a:hover {
+        color: #ffffff; }
+    .popupMainContainer .checkPrize .finalButton.allowSkip a {
+      width: 50%; }
+      .popupMainContainer .checkPrize .finalButton.allowSkip a.closeSkipPopup {
+        background-color: #ffffff;
+        color: #009fe3; }
+        .popupMainContainer .checkPrize .finalButton.allowSkip a.closeSkipPopup:hover {
+          color: #009fe3; }
+
+.popupMainContainer.imageHolder {
+  text-align: center;
+  background-color: #ffffff; }
+  .popupMainContainer.imageHolder img {
+    width: 100%; }
+
+/*=====  End of POPUPS  ======*/
+.forScroll {
+  margin: 60px auto 30px;
+  width: 30px;
+  height: 30px; }
+  .forScroll .scrollDown {
+    background-color: #ffe400;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle; }
+
+@media (max-width: 991px) and (min-width: 200px) {
+  .body {
+    background-size: cover; }
+
+  .header {
+    margin-top: 20px; }
+
+  .gameEtaps {
+    margin-top: 10px; }
+
+  .main-prize {
+    max-width: 100%;
+    background-size: contain;
+    padding-left: 44px; }
+
+  .pokupki, .photosessia, .shoping {
+    text-align: center;
+    padding: 0px; }
+
+  .shoping p {
+    padding: 0px 40px; } }
+
+/*# sourceMappingURL=prizes.css.map */

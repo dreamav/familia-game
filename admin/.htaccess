@@ -1,0 +1,17 @@
+DirectoryIndex index index.php
+
+#AuthType Basic
+#AuthName "Нужен пароль"
+#AuthUserFile /var/www/streetadv/data/www/adventure.famil.ru/admin/.htpasswd
+#Require valid-user
+
+RewriteEngine On
+RewriteBase /
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteCond %{ENV:REDIRECT_MYFLAG} ^$
+RewriteCond %{HTTP_HOST} ^.*spb\.todobox\.ru$
+RewriteRule ^(.+) %{HTTP_HOST}$1 [E=MYFLAG:1]
+RewriteRule ^.*spb\.todobox\.ru(.*) /spb%{REQUEST_URI} [L]

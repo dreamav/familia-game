@@ -1,0 +1,41 @@
+.page-header.navbar {
+  background-color: #602076; }
+  .page-header.navbar .page-logo > a {
+    font-size: 40px;
+    line-height: 50px;
+    font-family: "Open Sans",sans-serif;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #fff; }
+    .page-sidebar-closed .page-header.navbar .page-logo > a {
+      display: none; }
+    .page-header.navbar .page-logo > a img {
+      max-height: 40px; }
+
+.portlet > .portlet-title > .actions {
+  float: none;
+  display: block;
+  margin-left: 200px; }
+
+.nav > li > a[href*=tab_text],
+.nav > li > a[href*=tab_text_choice],
+.nav > li > a[href*=tab_seria_choice],
+.nav > li > a[href*=tab_image_choice] {
+  display: none; }
+
+.dz-preview div[class^=dz] {
+  display: none; }
+.dz-preview div.dz-image {
+  display: block; }
+
+div[id^=img], div#image {
+  min-height: 50px;
+  border: 1px solid #000; }
+
+input + textarea {
+  margin-top: 10px; }
+
+.mr-l-0 {
+  margin-left: 0 !important; }
+
+/*# sourceMappingURL=mev_style.css.map */
